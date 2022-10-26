@@ -1,0 +1,60 @@
+{
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<C-w>",
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "<C-w>",
+                "h"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "e",
+                "e"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "e",
+                "e"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "editor.columnSelection": true,
+    "editor.minimap.maxColumn": 100,
+    "editor.rulers": [
+        90
+    ],
+    "workbench.layoutControl.enabled": false,
+    "workbench.layoutControl.type": "toggles",
+    "editor.fontLigatures": true,
+    "window.doubleClickIconToClose": true,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontFamily": "cascadia code",
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "workbench.editorAssociations": {
+        "*.mp3": "default"
+    },
+}
